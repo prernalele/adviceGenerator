@@ -7,6 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Advice generator app</title>
+  <link rel="stylesheet" href="style.css" />
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -16,10 +17,18 @@
 </head>
 <body>
 
-  Advice #<!-- Advice ID goes here -->
-  <div id="adviceId"></div>
-  <p id="adviceText"></p>
-  <button onClick=fetchAdvice()> Advice Generator </button>
+  <!-- Advice ID goes here -->
+  <div class="wrapper">
+    <p id="adviceNum">Advice #<span id="adviceId"></span></p>
+    <p id="adviceText"></p>
+    <img class="divider" src='./images/pattern-divider-desktop.svg'>
+    <p class="diceOuterWrapper">
+      <button class="diceWrapper" onClick=fetchAdvice()> 
+        <img src='./images/icon-dice.svg'/>
+      </button>
+    </p>
+
+  </div>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 

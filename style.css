@@ -1,0 +1,60 @@
+@font-face {
+    font-family: fontAdvice;
+    src: url(https://fonts.google.com/specimen/Manrope);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(218, 23%, 16%)
+
+}
+
+.wrapper {
+    background-color:hsl(217, 19%, 24%); 
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.diceWrapper {
+    background-color: hsl(150, 100%, 66%);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.diceOuterWrapper {
+    justify-content: center;
+    align-items: center;
+}
+
+.divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#adviceText {
+    color: white;
+    font-family: fontAdvice;
+    font-size: medium;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+}
+
+#adviceNum {
+    align-items: center;
+    justify-content: center;
+    color:  hsl(150, 100%, 66%);
+}

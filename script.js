@@ -16,7 +16,7 @@ function fetchAdvice() {
     .then(data => {
         //Display id and advice 
         displayAdviceId.innerHTML = data.slip.id
-        displayAdviceText.innerHTML = data.slip.advice
+        displayAdviceText.innerHTML = '"' + data.slip.advice + '"';
         
     })
 }
