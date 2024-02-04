@@ -22,6 +22,7 @@ body {
 }
 
 .diceWrapper {
+    margin: -22px;
     background-color: hsl(150, 100%, 66%);
     padding: 10px;
     margin: 10px;
@@ -31,6 +32,9 @@ body {
 }
 
 .diceOuterWrapper {
+    margin: auto;
+    padding:auto;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -39,6 +43,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
+    padding: auto;
 }
 
 #adviceText {
@@ -54,6 +60,7 @@ body {
 }
 
 #adviceNum {
+    display: flex;
     align-items: center;
     justify-content: center;
     color:  hsl(150, 100%, 66%);
